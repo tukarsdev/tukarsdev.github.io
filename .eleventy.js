@@ -1,4 +1,8 @@
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addNunjucksShortcode("year", function () {
+		return new Date().getFullYear();
+	});
+	
   return {
     dir: {
       input: "src/dev/tukars/pages",
