@@ -1,6 +1,7 @@
 # 11ty rules
 
 _site/*
+_site
 
 # Logs
 logs
